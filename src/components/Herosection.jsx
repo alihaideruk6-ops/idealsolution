@@ -1,6 +1,12 @@
 import { useEffect, useState } from "react";
 import bannerImage from "/src/assets/aboutbanner2.jpg";
 import heroImage1 from "/src/assets/hero1.jpg";
+import heroImage2 from "/src/assets/Untitled-design-27.png";
+import heroImage3 from "/src/assets/pexels-fauxels-3183183.jpg";
+import heroImage4 from "/src/assets/business-person-planning-alternative-energies.jpg";
+import heroImage5 from "/src/assets/hero1.jpg";
+import heroImage6 from "/src/assets/urbine-8.png";
+
 
 const slides = [
   {
@@ -13,20 +19,20 @@ const slides = [
   {
     bg: heroImage1,
     portrait:
-      "/src/assets/Untitled-design-27.png",
+     heroImage2 ,
     title: "Commercial Solar Solutions",
     desc: "Reduce energy costs with expert solar panel installations tailored for UK businesses — generate your own clean power.",
   },
   {
-    bg: "/src/assets/pexels-fauxels-3183183.jpg",
-    portrait: "/src/assets/business-person-planning-alternative-energies.jpg",
+    bg:heroImage3,
+    portrait: heroImage4,
     title: "Smart Energy Monitoring",
     desc: "Track usage in real-time and optimise your consumption with advanced monitoring tools for maximum efficiency.",
   },
   {
-    bg: "/src/assets/hero1.jpg",
+    bg:heroImage5 ,
     portrait:
-      "/src/assets/urbine-8.png",
+     heroImage6,
     title: "Tailored Business Insurance",
     desc: "Protect your operations with comprehensive insurance packages designed specifically for UK businesses.",
   },
