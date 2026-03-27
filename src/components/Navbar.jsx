@@ -72,7 +72,7 @@ export default function Navbar() {
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center gap-8 font-medium text-[var(--text-main)]">
               <Link
-                to="/"
+                to="/utilities-services"
                 className="hover:text-[var(--primary-600)] transition-colors"
               >
                 Home
@@ -89,7 +89,7 @@ export default function Navbar() {
                   aria-expanded={servicesOpen}
                 >
                   <Link
-                    to="/services"
+                    to="/utilities-services/services"
                     className="hover:text-[var(--primary-600)] transition-colors"
                   >
                     Services
@@ -120,7 +120,7 @@ export default function Navbar() {
                       return (
                         <Link
                           key={item}
-                          to={`/services/${slug}`}
+                          to={`/utilities-services/services/${slug}`}
                           className="block px-6 py-3 text-sm text-[var(--text-main)] hover:bg-[var(--primary-500)]/10 hover:text-[var(--primary-600)] transition-all duration-200"
                           onClick={() => setServicesOpen(false)} // Close on selection
                         >
@@ -133,26 +133,26 @@ export default function Navbar() {
               </div>
 
               <Link
-                to="/sectors"
+                to="/utilities-services/sectors"
                 className="hover:text-[var(--primary-600)] transition-colors"
               >
                 Sectors
               </Link>
               <Link
-                to="/complaints"
+                to="/utilities-services/complaints"
                 className="hover:text-[var(--primary-600)] transition-colors"
               >
                 Complaints Handling
               </Link>
               <Link
-                to="/about"
+                to="/utilities-services/about"
                 className="hover:text-[var(--primary-600)] transition-colors"
               >
                 About Us
               </Link>
 
               <Link
-                to="/contact"
+                to="/utilities-services/contact"
                 className="px-5 py-2.5 bg-[var(--secondary-500)] text-white rounded-xl hover:bg-[var(--secondary-600)] transition-colors"
               >
                 Contact Us
@@ -174,7 +174,7 @@ export default function Navbar() {
           <div className="md:hidden mt-4 mx-4 bg-[var(--bg-card)] border border-[var(--border-color)] rounded-2xl shadow-xl overflow-hidden">
             <div className="px-6 py-6 space-y-4 font-medium text-[var(--text-main)]">
               <Link
-                to="/"
+                to="/utilities-services"
                 className="block hover:text-[var(--primary-600)] transition-colors"
               >
                 Home
@@ -192,7 +192,7 @@ export default function Navbar() {
                   {services.map((item) => (
                     <Link
                       key={item}
-                      to={`/services/${item
+                      to={`/utilities-services/services/${item
                         .toLowerCase()
                         .replace(/\s+/g, "-")}`}
                       className="block py-1 hover:text-[var(--primary-600)] transition-colors"
@@ -205,26 +205,26 @@ export default function Navbar() {
               </details>
 
               <Link
-                to="/sectors"
+                to="/utilities-services/sectors"
                 className="block hover:text-[var(--primary-600)] transition-colors"
               >
                 Sectors
               </Link>
               <Link
-                to="/complaints"
+                to="/utilities-services/complaints"
                 className="block hover:text-[var(--primary-600)] transition-colors"
               >
                 Complaints Handling
               </Link>
               <Link
-                to="/about"
+                to="/utilities-services/about"
                 className="block hover:text-[var(--primary-600)] transition-colors"
               >
                 About Us
               </Link>
 
               <Link
-                to="/contact"
+                to="/utilities-services/contact"
                 className="block text-center py-3 bg-[var(--secondary-500)] text-white rounded-xl hover:bg-[var(--secondary-600)] transition-colors"
                 onClick={() => setMenuOpen(false)}
               >

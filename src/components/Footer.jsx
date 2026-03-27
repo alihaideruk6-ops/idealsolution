@@ -21,7 +21,7 @@ export default function Footer() {
       <div className="relative z-10 mx-auto max-w-[90%] px-6 py-16 lg:py-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-12 lg:gap-16">
         {/* Column 1: Logo + Description + Social */}
         <div className="space-y-8 md:col-span-1">
-          <Link to="/" className="inline-block">
+          <Link to="/utilities-services" className="inline-block">
             <img
               src={logo}
               alt="Ideal Solutions Logo"
@@ -87,7 +87,7 @@ export default function Footer() {
           <ul className="space-y-3">
             <li>
               <Link
-                to="/services/business-electricity"
+                to="/utilities-services/services/business-electricity"
                 className="text-gray-400 hover:text-[var(--secondary-400)] transition-colors duration-300"
               >
                 Business Electricity
@@ -95,7 +95,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                to="/services/business-gas"
+                to="/utilities-services/services/business-gas"
                 className="text-gray-400 hover:text-[var(--secondary-400)] transition-colors duration-300"
               >
                 Business Gas
@@ -103,7 +103,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                to="/services/commercial-solar"
+                to="/utilities-services/services/commercial-solar"
                 className="text-gray-400 hover:text-[var(--secondary-400)] transition-colors duration-300"
               >
                 Commercial Solar
@@ -111,7 +111,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                to="/services/business-water"
+                to="/utilities-services/services/business-water"
                 className="text-gray-400 hover:text-[var(--secondary-400)] transition-colors duration-300"
               >
                 Business Water
@@ -119,7 +119,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                to="/services/business-telecoms"
+                to="/utilities-services/services/business-telecoms"
                 className="text-gray-400 hover:text-[var(--secondary-400)] transition-colors duration-300"
               >
                 Business Telecoms
@@ -127,7 +127,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                to="/services/merchant-services"
+                to="/utilities-services/services/merchant-services"
                 className="text-gray-400 hover:text-[var(--secondary-400)] transition-colors duration-300"
               >
                 Merchant Services
@@ -135,7 +135,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                to="/services/domestic-energy"
+                to="/utilities-services/services/domestic-energy"
                 className="text-gray-400 hover:text-[var(--secondary-400)] transition-colors duration-300"
               >
                 Domestic Energy
@@ -150,7 +150,7 @@ export default function Footer() {
           <ul className="space-y-3">
             <li>
               <Link
-                to="/sectors/warehousing"
+                to="/utilities-services/sectors/warehousing"
                 className="text-gray-400 hover:text-[var(--secondary-400)] transition-colors duration-300"
               >
                 Warehousing
@@ -158,7 +158,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                to="/sectors/large-business"
+                to="/utilities-services/sectors/large-business"
                 className="text-gray-400 hover:text-[var(--secondary-400)] transition-colors duration-300"
               >
                 Large Business
@@ -166,7 +166,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                to="/sectors/charities"
+                to="/utilities-services/sectors/charities"
                 className="text-gray-400 hover:text-[var(--secondary-400)] transition-colors duration-300"
               >
                 Charities
@@ -174,7 +174,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                to="/sectors/hospitality"
+                to="/utilities-services/sectors/hospitality"
                 className="text-gray-400 hover:text-[var(--secondary-400)] transition-colors duration-300"
               >
                 Hospitality
@@ -182,7 +182,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                to="/sectors/care-homes"
+                to="/utilities-services/sectors/care-homes"
                 className="text-gray-400 hover:text-[var(--secondary-400)] transition-colors duration-300"
               >
                 Care Homes
@@ -190,7 +190,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                to="/sectors/sports-clubs"
+                to="/utilities-services/sectors/sports-clubs"
                 className="text-gray-400 hover:text-[var(--secondary-400)] transition-colors duration-300"
               >
                 Sports Clubs
@@ -198,7 +198,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                to="/sectors/schools"
+                to="/utilities-services/sectors/schools"
                 className="text-gray-400 hover:text-[var(--secondary-400)] transition-colors duration-300"
               >
                 Schools
@@ -206,7 +206,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                to="/sectors/property-management"
+                to="/utilities-services/sectors/property-management"
                 className="text-gray-400 hover:text-[var(--secondary-400)] transition-colors duration-300"
               >
                 Property Management
@@ -214,7 +214,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                to="/sectors/car-garages"
+                to="/utilities-services/sectors/car-garages"
                 className="text-gray-400 hover:text-[var(--secondary-400)] transition-colors duration-300"
               >
                 Car Garages
@@ -229,7 +229,7 @@ export default function Footer() {
           <ul className="space-y-3">
             <li>
               <Link
-                to="/"
+                to="/utilities-services"
                 className="text-gray-400 hover:text-[var(--secondary-400)] transition-colors duration-300"
               >
                 Home
@@ -237,7 +237,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                to="/about"
+                to="/utilities-services/about"
                 className="text-gray-400 hover:text-[var(--secondary-400)] transition-colors duration-300"
               >
                 About Us
@@ -245,7 +245,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                to="/services"
+                to="/utilities-services/services"
                 className="text-gray-400 hover:text-[var(--secondary-400)] transition-colors duration-300"
               >
                 All Services
@@ -253,7 +253,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                to="/sectors"
+                to="/utilities-services/sectors"
                 className="text-gray-400 hover:text-[var(--secondary-400)] transition-colors duration-300"
               >
                 All Sectors
@@ -261,7 +261,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                to="/complaints"
+                to="/utilities-services/complaints"
                 className="text-gray-400 hover:text-[var(--secondary-400)] transition-colors duration-300"
               >
                 Complaints Handling
@@ -269,7 +269,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                to="/contact"
+                to="/utilities-services/contact"
                 className="text-gray-400 hover:text-[var(--secondary-400)] transition-colors duration-300 font-medium"
               >
                 Contact Us →
